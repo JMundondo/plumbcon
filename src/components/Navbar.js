@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="flex">
         <div className="bg-blue-500 w-1/3 p-3 flex items-center px-5">
           <span className="text-white font-bold text-[13px] md:text-[18px] company">
-            TwineLight Plumbing
+            Plumbcon
           </span>
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
@@ -43,14 +43,13 @@ const Navbar = () => {
             <img
               src={logo}
               alt="TwineLight Plumbing Logo"
-              className="h-20 w-20 md:h-20 md:w-20 rounded-full"
+              className="h-30 w-30 md:h-20 md:w-30 rounded-lg"
             />{" "}
             {/* Use the imported logo here */}
             <span className="md:text-2xl mx-2 text-blue-900 font-bold">
-              TwineLight Plumbing
+              Plumbing with Precision
             </span>
           </NavLink>
-          <p className="text-sm">Professional Plumber</p>
         </div>
         <div className="flex md:space-x-20 space-x-5">
           <div className="flex space-x-3 items-center">
@@ -59,11 +58,8 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">Email us</p>
-              <a
-                href="mailto:kasbassnigenterprises@gmail.com"
-                className="text-sm grey"
-              >
-                @twineLightplumbing@gmail.com
+              <a href="mailto:plumbcon@gmail.com" className="text-sm grey">
+                makandagtm@icloud.com
               </a>
             </div>
           </div>
@@ -74,7 +70,7 @@ const Navbar = () => {
             <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">Call us on</p>
               <a href="tel:+2348147603570" className="text-sm grey">
-                +263 78 848 8964
+                +263 77 386 1795
               </a>
             </div>
           </div>
