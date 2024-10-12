@@ -3,8 +3,8 @@ import { Images } from "./overview";
 export const data = {
   rows: [
     {
-      title: "Tell me about kasbass enterprises?",
-      content: `Kasbass mission is to provide the highest quality
+      title: "Tell me about PlumbCon?",
+      content: `PlumbCon mission is to provide the highest quality
             plumbing services to our customers. We specialize in installation, repair,
             and maintenance of all types of plumbing systems, as well as hot water heater
             services, sewer line repairs, and drain cleaning. Our team strives to deliver
@@ -69,59 +69,65 @@ export const data = {
 export const project = [
   {
     id: 1,
-    image: Images[0][0],
+    image: Images[0][4],
     overview: Images[0],
-    alt: "Before and after images of an office renovation project showing old pipes being removed and replaced with new ones, and appliances being rearranged for improved efficiency and flow of traffic.",
-    title: "Office Renovation",
+    alt: "Revitalizing A Backyard Paradise: A Pool Renovation and Maintenance Success Story.",
+    title: "Transforming A Family Backyard: A Pool Project Case Study",
     status: "Completed",
     description:
-      "The Office Renovation project was a comprehensive solution that transformed an outdated and inefficient office space into a modern and functional workspace. The project involved the removal of old pipes and the installation of new ones, as well as the rearrangement of appliances to create a more efficient and productive workspace.",
+      "A family contacted us about their 15-year-old pool that had lost its luster and was experiencing frequent maintenance issues. Our goal was to renovate the existing pool, enhance its features, and implement a robust maintenance plan to ensure longevity and enjoyment.",
     highlights: [
-      "Removal of old pipes and installation of new ones",
-      "Rearrangement of appliances",
-      "Addition of new lighting fixtures",
-      "Fresh paint, and new flooring",
+      "Removed old, cracking plaster",
+      "Applied durable pebble finish for a modern look and extended lifespan",
+      "Replaced damaged concrete with slip-resistant pavers",
+      "Installed energy-efficient variable-speed pump",
+      "Added non-slip coating to pool steps",
+      "Tile cleaning to prevent calcium build-up",
     ],
     detail:
-      "The Office Renovation project was successful in transforming the outdated office space into a more modern, efficient, and productive workspace with improvements to the plumbing system, appliance rearrangement, new lighting fixtures, fresh paint, and modern furniture. The client is happy with the results and has reported increased productivity and employee satisfaction.",
+      "The renovation breathed new life into the backyard. Mr. Moyo remarked, It's like we have a brand-new pool! The water is crystal clear, and we have barely had to think about maintenance.The family reported a significant reduction in their monthly utility bills thanks to the energy-efficient equipment. They also noted that the salt system made the water feel softer and reduced eye irritation.Our ongoing maintenance plan has kept the pool in pristine condition, allowing the Smiths to enjoy their backyard oasis without the stress of constant upkeep.",
   },
   {
     id: 2,
-    image: Images[1][4],
+    image: Images[1][0],
     overview: Images[1],
-    title: "Office Renovation",
-    alt: "Before and after images of an office renovation project showing old pipes being removed and replaced with new ones, and appliances being rearranged for improved efficiency and flow of traffic.",
+    title: "A Commercial Bathroom Design, Building, and Plumbing Case Study",
+    alt: "A Commercial Bathroom Design, Building, and Plumbing Case Study",
     status: "Completed",
     description:
-      "The Office Renovation project was a comprehensive solution that transformed an outdated and inefficient office space into a modern and functional workspace. The project involved the removal of old pipes and the installation of new ones, as well as the rearrangement of appliances to create a more efficient and productive workspace.",
+      "Our firm was contracted to design, build, and plumb new public restrooms for the Metro Central Station, a major transportation hub serving over 50,000 commuters daily. The project involved creating durable, hygienic, and efficient facilities capable of handling high traffic volumes.",
     highlights: [
-      "Removal of old pipes and installation of new ones",
-      "Rearrangement of appliances",
-      "Addition of new lighting fixtures",
-      "Fresh paint, and new flooring",
+      "Designed and built new public restrooms for a major transit hub serving 500 daily commuters",
+      "Implemented touchless fixtures and open entryway design",
+      "Utilized antimicrobial materials in high-touch areas",
+      "Increased from 65% to 92% based on exit surveys",
+      "Used modular and prefabricated components to minimize on-site time and disruption.",
+      "Selected for durability and ease of maintenance, including epoxy flooring and solid surface countertops",
     ],
     detail:
-      "The Office Renovation project was successful in transforming the outdated office space into a more modern, efficient, and productive workspace with improvements to the plumbing system, appliance rearrangement, new lighting fixtures, fresh paint, and modern furniture. The client is happy with the results and has reported increased productivity and employee satisfaction.",
+      "The project began with a comprehensive design phase, focusing on creating a layout that could handle high volumes of users while ensuring durability, hygiene, and compliance with ADA standards. Key design elements included an open entryway, strategically placed fixtures, and the integration of smart technology for maintenance tracking.During the building phase, we employed innovative construction techniques, including the use of prefabricated components and a phased approach to minimize disruption to the station's operations. The plumbing system was designed with a focus on water conservation, incorporating greywater recycling and rainwater harvesting systems.Despite challenges such as working in a limited space and adhering to strict noise restrictions, the project was completed on schedule over a 4-month period. The result was a state-of-the-art facility that significantly improved the station's operational efficiency and user satisfaction.The success of this project not only met the immediate needs of Metro Central Station but also set a new standard for public restroom facilities in transit hubs. It demonstrated that with thoughtful design, innovative building techniques, and advanced plumbing systems, it's possible to create public restrooms that are both functional and sustainable.The positive outcomes of this renovation have led to discussions about implementing similar upgrades at other major transit locations in the metro area, highlighting the project's impact beyond its immediate scope",
   },
 
   {
     id: 5,
     image: Images[4][2],
     overview: Images[4],
-    alt: "A renovated bathroom with modern sanitary ware and plumbing fixtures. The project involved the removal of old and outdated sanitary ware and the installation of new and modern fixtures, as well as the renovation of the plumbing system. The project contributed to energy conservation, water efficiency, and reduced the risk of accidents or breakdowns, resulting in a modern and reliable plumbing system that meets the needs of the building's occupants.",
-    title: "Building Renovation",
+    alt: "First Fixing and Demolition Plumbing",
+    title: "First Fixing and Demolition Plumbing",
     status: "Completed",
     description:
-      "The Completed Building Renovation, Sanitary Ware Replacement project involved the renovation and upgrade of the plumbing system in a building by replacing outdated and inefficient sanitary ware with new and modern fixtures. The project included the removal of old sanitary ware and the installation of new ones in their place.",
+      "Our firm was contracted to handle the first fixing and demolition plumbing for the Greenfield Office Complex, a new 10-story commercial building in the heart of the business district. The project involved demolishing an existing structure and installing the initial plumbing systems for the new building.",
     highlights: [
-      "Inspection and Assessment",
-      "Removal of Old Sanitary Ware",
-      "Installation of New Sanitary Ware",
-      "Testing and Inspection",
-      "Renovation   of Plumbing System",
+      "Disconnection and capping of existing water main and sewer lines",
+      "Removal of all existing plumbing fixtures, pipes, and fittings",
+      "Demolition of non-load-bearing walls to access plumbing chases",
+      "Excavation for new foundation and underground plumbing",
+      "Installation of new sewer line connections",
+      "Laying of underground storm drainage pipes",
+      "Installation of sump pumps in the basement",
     ],
     detail:
-      "The Completed Building Renovation, Sanitary Ware Replacement project improved the functionality and aesthetics of the plumbing system in the building. By replacing outdated fixtures, the project contributed to energy conservation, water efficiency, and reduced the risk of accidents or breakdowns.",
+      "The successful completion of the demolition and first fixing plumbing stages for the Greenfield Office Complex demonstrated our firm's ability to handle complex, large-scale projects efficiently. By combining innovative techniques, sustainable practices, and meticulous planning, we laid the groundwork for a state-of-the-art plumbing system that will serve the building efficiently for years to come.",
   },
   {
     id: 6,

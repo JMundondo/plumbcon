@@ -4,26 +4,12 @@ import { PhoneCall } from "lucide-react";
 const AirbnbPromoBanner = () => {
   return (
     <div className="overflow-hidden bg-blue-600 text-white py-3 relative">
-      <div className="inline-flex whitespace-nowrap animate-marquee">
+      <div className="animate-marquee whitespace-nowrap">
         <span className="mx-4 text-lg font-semibold">
           Attention Airbnb Hosts! 24/7 Emergency Plumbing Services Available
         </span>
         <span className="mx-4 text-lg">
-          Don&apos;t Let Plumbing Issues Ruin Your Guests&apos; Stay
-        </span>
-        <span className="mx-4 text-lg font-semibold">
-          Fast Response Time Guaranteed
-        </span>
-        <span className="mx-4 text-lg">
-          Special Rates for Airbnb Properties
-        </span>
-      </div>
-      <div className="inline-flex whitespace-nowrap animate-marquee2">
-        <span className="mx-4 text-lg font-semibold">
-          Attention Airbnb Hosts! 24/7 Emergency Plumbing Services Available
-        </span>
-        <span className="mx-4 text-lg">
-          Don&apos;t Let Plumbing Issues Ruin Your Guests&apos; Stay
+          Don't Let Plumbing Issues Ruin Your Guests' Stay
         </span>
         <span className="mx-4 text-lg font-semibold">
           Fast Response Time Guaranteed
