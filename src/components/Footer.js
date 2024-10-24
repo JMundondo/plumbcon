@@ -34,8 +34,14 @@ const Footer = () => {
               </span>
               <div className="text-sm flex items-center">
                 <EnvelopeIcon className="text-blue-500 h-4 w-4 mx-1" />
-                <a href="mailto:kasbassnigenterprises@gmail.com">
-                  makandagtm@icloud.com
+                <a href="mailto:sales@plumbconafrica.co.zw">
+                  sales@plumbconafrica.co.zw
+                </a>
+              </div>
+              <div className="text-sm flex items-center">
+                <EnvelopeIcon className="text-blue-500 h-4 w-4 mx-1" />
+                <a href="mailto:operations@plumbconafrica.co.zw">
+                  operations@plumbconafrica.co.zw
                 </a>
               </div>
             </div>
@@ -81,28 +87,24 @@ const Footer = () => {
         <h2 className="font-bold text-white text-[20px]">Follow Us</h2>
         <div className="flex space-x-3">
           <a
-            href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
+            href="https://www.facebook.com/plumbconzim?mibextid=ZbWKwL"
             target="_blank"
             rel="noreferrer"
           >
             <img className="circle" src={facebook} alt="facebook logo" />
           </a>
           <a
-            href="https://mobile.twitter.com/GasaliAbass"
+            href="https://x.com/plumbconzw?t=0s-dhyZCBN5D1o3fuQTdnQ&s=09"
             target="_blank"
             rel="noreferrer"
           >
             <img className="circle" src={twitter} alt="twitter logo" />
           </a>
-          <a
-            href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://g.co/kgs/kf3CFEv" target="_blank" rel="noreferrer">
             <img className="circle" src={google} alt="google logo" />
           </a>
           <a
-            href="https://www.linkedin.com/in/abass-kasali-369911247"
+            href="https://www.linkedin.com/company/plumbcon-zimbabwe/"
             target="_blank"
             rel="noreferrer"
           >

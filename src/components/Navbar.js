@@ -22,16 +22,28 @@ const Navbar = () => {
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
           <div className="flex space-x-3">
-            <a href="#" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.facebook.com/plumbconzim?mibextid=ZbWKwL"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="circle" src={facebook} alt="facebook logo" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a
+              href="https://x.com/plumbconzw?t=0s-dhyZCBN5D1o3fuQTdnQ&s=09"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="circle" src={twitter} alt="twitter logo" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://g.co/kgs/kf3CFEv" target="_blank" rel="noreferrer">
               <img className="circle" src={google} alt="google logo" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/company/plumbcon-zimbabwe/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="circle" src={linkedin} alt="linkedin logo" />
             </a>
           </div>
@@ -58,8 +70,11 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">Email us</p>
-              <a href="mailto:plumbcon@gmail.com" className="text-sm grey">
-                makandagtm@icloud.com
+              <a
+                href="mailto:sales@plumbconafrica.co.zw"
+                className="text-sm grey"
+              >
+                sales@plumbconafrica.co.zw
               </a>
             </div>
           </div>
@@ -69,7 +84,7 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">Call us on</p>
-              <a href="tel:+2348147603570" className="text-sm grey">
+              <a href="tel:+263773861795" className="text-sm grey">
                 +263 77 386 1795
               </a>
             </div>

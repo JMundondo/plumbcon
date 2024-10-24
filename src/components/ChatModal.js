@@ -2,8 +2,8 @@ import { Fragment, useRef, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { AiOutlineMessage } from "react-icons/ai";
-import { FaFacebookMessenger, FaInstagram } from 'react-icons/fa'
-import { IoLogoWhatsapp } from 'react-icons/io'
+import { FaFacebookMessenger, FaInstagram } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function ChatModal() {
   const [open, setOpen] = useState(true);
@@ -50,32 +50,39 @@ export default function ChatModal() {
                       />
                       <div className="flex flex-col gap-4 my-10">
                         <h2 className="text-center text-2xl text-blue-500">
-                          KASBASS LIVE SUPPORT
+                          Plumbcon Zimbabwe LIVE SUPPORT
                         </h2>
                         <p className="text-sm text-center">
-                          Welcome to Kasbass Live Support. Please select the
-                          communication method that is most convenient for you.
+                          Welcome to Plumbcon Zimbabwe Live Support. Please
+                          select the communication method that is most
+                          convenient for you.
                         </p>
                         <div className="flex justify-center items-center bg-gray-200 p-10 my-3">
                           <div className="grid grid-cols-2 gap-10">
                             <div>
-                              <a href="tel:+2348147603570" className="flex flex-col justify-center items-center    gap-3">
+                              <a
+                                href="tel:+263773861795"
+                                className="flex flex-col justify-center items-center    gap-3"
+                              >
                                 <AiOutlineMessage
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                                  className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
                                 bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
-                              />
-                              <span className="text-gray-700">Live Call</span>
+                                  onClick={() => setOpen(!open)}
+                                />
+                                <span className="text-gray-700">Call</span>
                               </a>
                             </div>
                             <div>
-                              <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL" className="flex flex-col justify-center items-center gap-3">
+                              <a
+                                href="https://www.facebook.com/plumbconzim?mibextid=ZbWKwL"
+                                className="flex flex-col justify-center items-center gap-3"
+                              >
                                 <FaFacebookMessenger
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                                  className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
                                 bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
-                              />
-                              <span className="text-gray-700">Facebook</span>
+                                  onClick={() => setOpen(!open)}
+                                />
+                                <span className="text-gray-700">Facebook</span>
                               </a>
                             </div>
                             <div className="flex flex-col justify-center items-center gap-3">
@@ -87,13 +94,18 @@ export default function ChatModal() {
                               <span className="text-gray-700">Whatsapp</span>
                             </div>
                             <div>
-                              <a href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn" target="_blank" rel="noreferrer" className="flex flex-col justify-center items-center gap-3">
-                              <FaInstagram
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                              <a
+                                href="https://www.instagram.com/plumbconzw?igsh=MTVqcW1nbWF3NGVkZQ=="
+                                target="_blank"
+                                rel="noreferrer"
+                                className="flex flex-col justify-center items-center gap-3"
+                              >
+                                <FaInstagram
+                                  className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
                                 bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
-                              />
-                              <span className="text-gray-700">Instagram</span>
+                                  onClick={() => setOpen(!open)}
+                                />
+                                <span className="text-gray-700">Instagram</span>
                               </a>
                             </div>
                           </div>
