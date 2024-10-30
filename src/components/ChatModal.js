@@ -87,12 +87,21 @@ export default function ChatModal() {
                             </div>
                             <div className="flex flex-col justify-center items-center gap-3">
                               <IoLogoWhatsapp
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
-                                bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
+                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3 bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  setOpen(false);
+                                  window.open(
+                                    `https://wa.me/+263773861795?text=${encodeURIComponent(
+                                      "Hello Plumbcon Zimbabwe,\n\nI would like to request a service consultation for plumbing work.\n\nPlease contact me regarding this request."
+                                    )}`,
+                                    "_blank"
+                                  );
+                                }}
                               />
                               <span className="text-gray-700">Whatsapp</span>
                             </div>
+
                             <div>
                               <a
                                 href="https://www.instagram.com/plumbconzw?igsh=MTVqcW1nbWF3NGVkZQ=="

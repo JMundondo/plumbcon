@@ -2,6 +2,9 @@ import React from "react";
 import { PhoneCall } from "lucide-react";
 
 const AirbnbPromoBanner = () => {
+  const handleCall = () => {
+    window.location.href = "tel:+263773861795";
+  };
   return (
     <div className="overflow-hidden bg-blue-600 text-white py-3 relative">
       <div className="inline-flex whitespace-nowrap animate-marquee">
@@ -33,7 +36,10 @@ const AirbnbPromoBanner = () => {
         </span>
       </div>
       <div className="absolute top-1/2 right-4 transform -translate-y-1/2">
-        <button className="bg-white text-blue-600 px-4 py-2 rounded-full font-bold flex items-center hover:bg-blue-100 transition-colors duration-300">
+        <button
+          onClick={handleCall}
+          className="bg-white text-blue-600 px-4 py-2 rounded-full font-bold flex items-center hover:bg-blue-100 transition-colors duration-300"
+        >
           <PhoneCall className="mr-2" size={18} />
           Call Now
         </button>

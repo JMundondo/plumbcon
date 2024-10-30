@@ -5,27 +5,24 @@ import img3 from "../logo/doctor3.png";
 export const feedback = [
   {
     image: img1,
-    alt: "customer one",
+    alt: "Tatenda Mzezewa",
     message:
-      'Plumbcon was fantastic!!..polite, efficient, neat and extremely profession plus he’s a nice guy to boot!. He did an excellent job for us and we are very happy with our new drain system..Thanks to Joe and all the folks at Meticulous!"',
-    name: "Nat Reynolds",
+      "had an overall positive experience with the team on a several tasks. communicated well on risks & were transparent about pricing.They repair when other contractors would have chosen to bill for an expensive replacement.are sometimes slow to respond to queries or come for agreed work",
+    name: "Tatenda Mzezewa",
     prof: "Chief Accountant",
   },
   {
     image: img2,
-    alt: "Celia Micheal",
-    message: `Plumbcon is the best plumbing company I’ve ever worked with.
-        Their technicians are knowledgeable, professional, and reliable. We were extremely pleased with the results
-        and would highly recommend them to anyone in need of plumbing services.`,
-    name: "Celia Micheal",
+    alt: "vimbayi makwavarara",
+    message: `Excellent service, knowledgeable young man well worth the money for the service. Would recommend this service professional anytime..all the time. Keep it up!`,
+    name: "vimbayi makwavarara",
     prof: "Secretary",
   },
   {
     image: img3,
-    alt: "John Frank",
-    message:
-      "I thank you so much for the work that was done here, and you always do such a good job for such a reasonable price. Thanks for moving my appointment sooner as well, I believe that prevented some damage to the flooring.",
-    name: "John Frank",
+    alt: "David Edwards",
+    message: "Good, quick and effective job although a slight delay arriving.",
+    name: "David Edwards",
     prof: "Sales Manager",
   },
 ];
