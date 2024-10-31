@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useForm, ValidationError } from "@formspree/react";
 import { useNavigate } from "react-router";
+import SEO from "../components/SEO";
 
 const Message = () => {
   const [state, handleSubmit] = useForm("xeoqovla");
@@ -17,6 +18,7 @@ const Message = () => {
 
   return (
     <>
+      <SEO />
       <Navbar color="bg-gray-800" />
       <section className="bg-white flex flex-col items-center py-10 space-y-6">
         <h3 className="text-2xl font-bold">Feel free to ask anything</h3>

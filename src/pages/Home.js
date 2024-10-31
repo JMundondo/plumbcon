@@ -13,6 +13,7 @@ import image from "../functions/bgImage";
 import Book from "../components/Book";
 import { NavLink } from "react-router-dom";
 import AirbnbPromoBanner from "./Appointment";
+import SEO from "../components/SEO";
 
 const Home = () => {
   const [Image, setImage] = useState("");
@@ -60,6 +61,7 @@ const Home = () => {
 
   return (
     <>
+      <SEO />
       <Navbar />
       <AirbnbPromoBanner />
       <motion.div

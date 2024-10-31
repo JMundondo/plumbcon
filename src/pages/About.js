@@ -1,9 +1,11 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import SEO from "../components/SEO";
 
 const About = () => {
   return (
     <>
+      <SEO />
       <Navbar />
       <div
         className="bg-gray-100 h-full flex flex-col px-10 md:px-40 
