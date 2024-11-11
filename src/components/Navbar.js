@@ -9,9 +9,16 @@ import facebook from "../logo/facebook.jpg";
 import twitter from "../logo/twitter.png";
 import google from "../logo/google.jpg";
 import linkedin from "../logo/linkedin.png";
-import logo from "../logo/logo.jpeg"; // Import your logo here
+import logo from "../logo/logo.jpeg";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
+  const whatsappNumber = "+263773861795"; // Replace with your actual WhatsApp number
+  const whatsappMessage = encodeURIComponent(
+    "Hello, I'd like to request plumbing services."
+  );
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
   return (
     <header>
       <div className="flex">
@@ -21,7 +28,7 @@ const Navbar = () => {
           </span>
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 items-center">
             <a
               href="https://www.facebook.com/plumbconzim?mibextid=ZbWKwL"
               target="_blank"
@@ -46,6 +53,16 @@ const Navbar = () => {
             >
               <img className="circle" src={linkedin} alt="linkedin logo" />
             </a>
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center bg-green-500 hover:bg-green-600 px-4 py-2 rounded-md text-white text-sm font-bold shadow-md transition duration-300 ease-in-out transform hover:scale-105"
+            >
+              <FaWhatsapp className="mr-2 text-lg" />
+              <span className="hidden sm:inline">Chat on WhatsApp</span>
+              <span className="sm:hidden">WhatsApp</span>
+            </a>
           </div>
         </div>
       </div>
@@ -56,8 +73,7 @@ const Navbar = () => {
               src={logo}
               alt="TwineLight Plumbing Logo"
               className="h-30 w-30 md:h-20 md:w-30 rounded-lg"
-            />{" "}
-            {/* Use the imported logo here */}
+            />
             <span className="md:text-2xl mx-2 text-blue-900 font-bold">
               Plumbing with Precision
             </span>
@@ -93,10 +109,10 @@ const Navbar = () => {
       </div>
       <nav
         className="flex justify-center md:justify-between md:container items-center
-        bg-paleBlue px-3  md:pr-0
-       text-white mx-auto text-[12px] md:text-[15px] font-bold"
+        bg-paleBlue px-3 md:pr-0
+        text-white mx-auto text-[12px] md:text-[15px] font-bold"
       >
-        <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
+        <ul className="flex space-x-4 md:space-x-10 md:mx-3 py-6">
           <NavLink className="link font-bold" to="/">
             HOME
           </NavLink>
@@ -116,10 +132,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <li
-          className="hidden md:block hover:opacity-90 
-        active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold"
-        >
+        <li className="hidden md:block hover:opacity-90 active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold">
           BLOG
         </li>
       </nav>
